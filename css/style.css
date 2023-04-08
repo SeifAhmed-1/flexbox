@@ -1,0 +1,46 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 80%;
+    height: 400px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 29%;
+    height: 29%;
+    
+}
+
+.red{
+    background-color: chocolate;
+
+}
+
+.blue{
+    background-color: lightblue;
+}
+
+.green{
+    background-color: greenyellow;
+    align-self: flex-start;
+}
+
+.crimson{
+    background-color: crimson;
+    align-self: flex-end;
+}
